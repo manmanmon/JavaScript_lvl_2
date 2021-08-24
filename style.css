@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 50px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+.btn-cart {
+    height: 30px;
+    width: 90px;
+    margin-right: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #000;
+}
+
+.products {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: 170px;
+    min-height: 220px;
+    margin-bottom: 20px;
+    background-color: burlywood;
+}
+
+.product-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.product-img {
+    width: 150px;
+    height: 130px;
+    padding-bottom: 10px;
+}
+
+.product-name {
+  margin-bottom: 10px;
+}
+
+.buy-btn {
+    margin-left: 70px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #000;
+}
+
+.search-form {
+    margin-right: 30px;
+    position: relative;
+}
+
+.search-field {
+    outline: none;
+    height: 25px;
+    padding-left: 5px;
+}
+
+.btn-search {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    bottom: 4px;
+    right: 5px;
+}
+.fa-search {
+    font-size: 20px;
+    color: burlywood;
+}
+
+.cart{
+    display: flex;
+    position: relative;
+}
+
+.cart-block{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.62);
+    border-radius: 5px;
+    box-sizing: border-box;
+    right: 0;
+    top: 130%;
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    width: 300px;
+}
+
+.invisible{
+    display: none;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-bio {
+    display: flex;
+}
+
+.cart-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.product-desc {
+    padding-left: 20px;
+}
+
+.right-block {
+    text-align: right;
+}
